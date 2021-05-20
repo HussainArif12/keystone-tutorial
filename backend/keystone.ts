@@ -6,7 +6,8 @@ import {
 import { createAuth } from "@keystone-next/auth";
 
 import { lists } from "./schema";
-require("dotenv").config();
+
+require("dotenv").config(); //expose environment variables
 
 let sessionSecret = process.env.SESSION_SECRET;
 
